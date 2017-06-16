@@ -21,7 +21,7 @@ def prime(num):
     # num is actually a string because input() returns strings. We'll convert it to int
     num = int(num)
 
-    if num in [1, 2, 3]:
+    if num in [2, 3]:
         # if given argument is 1 2 or 3, it is prime. We used list without defining a variable which is perfectly valid
         return True
     if num % 2 == 0:  # excluding all even numbers except two.
